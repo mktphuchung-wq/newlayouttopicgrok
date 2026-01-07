@@ -9,20 +9,20 @@ const POSTS_LIMIT = 6;
 const blogPosts = [
   // --- POLYNESIA ---
   { id: 1, title: "Điệu nhảy Hula: Linh hồn của Hawaii", region: "Polynesia", country: "Hawaii", tags: ["Culture", "Dance"], img: "https://images.unsplash.com/photo-1462400362591-9ca55235346a?q=80&w=1132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-01-15" },
-  { id: 2, title: "Lễ hội xăm mình Tattoo tại Samoa", region: "Polynesia", country: "Samoa", tags: ["Culture", "Art"], img: "https://images.unsplash.com/photo-1596323086961-419b6e87a270?q=80&w=600&auto=format&fit=crop", date: "2024-02-10" },
-  { id: 3, title: "Haka: Tiếng gầm của chiến binh Maori", region: "Polynesia", country: "New Zealand", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1469521669194-babb45f835ae?q=80&w=600&auto=format&fit=crop", date: "2024-03-05" },
-  { id: 4, title: "Bí mật đằng sau hoa Lei", region: "Polynesia", country: "Hawaii", tags: ["Culture", "Nature"], img: "https://images.unsplash.com/photo-1589394666421-26c715974419?q=80&w=600&auto=format&fit=crop", date: "2024-03-12" },
-  { id: 5, title: "Ẩm thực Tahiti: Cá sống Poisson Cru", region: "Polynesia", country: "Tahiti", tags: ["Culture", "Food"], img: "https://images.unsplash.com/photo-1532966527582-730ce972627e?q=80&w=600&auto=format&fit=crop", date: "2023-12-20" },
+  { id: 2, title: "Lễ hội xăm mình Tattoo tại Samoa", region: "Polynesia", country: "Samoa", tags: ["Culture", "Art"], img: "https://images.unsplash.com/photo-1627672403843-8da34c501cfe?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-02-10" },
+  { id: 3, title: "Haka: Tiếng gầm của chiến binh Maori", region: "Polynesia", country: "New Zealand", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1558528909-66a2cffd8ce1?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-03-05" },
+  { id: 4, title: "Bí mật đằng sau hoa Lei", region: "Polynesia", country: "Hawaii", tags: ["Culture", "Nature"], img: "https://images.unsplash.com/photo-1590014168545-90fc0f28d88b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-03-12" },
+  { id: 5, title: "Ẩm thực Tahiti: Cá sống Poisson Cru", region: "Polynesia", country: "Tahiti", tags: ["Culture", "Food"], img: "https://images.unsplash.com/photo-1597851788739-bfd9500ea406?q=80&w=1176&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2023-12-20" },
 
   // --- MELANESIA ---
-  { id: 6, title: "Nghi lễ Kava tại Fiji", region: "Melanesia", country: "Fiji", tags: ["Culture", "Drink"], img: "https://images.unsplash.com/photo-1598327105654-706f9d453667?q=80&w=600&auto=format&fit=crop", date: "2024-02-01" },
-  { id: 7, title: "Bộ lạc vùng cao nguyên Papua", region: "Melanesia", country: "Papua New Guinea", tags: ["Culture", "People"], img: "https://images.unsplash.com/photo-1550850839-8dc894ed385a?q=80&w=600&auto=format&fit=crop", date: "2024-01-20" },
-  { id: 8, title: "Lặn biển xác tàu Vanuatu", region: "Melanesia", country: "Vanuatu", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?q=80&w=600&auto=format&fit=crop", date: "2023-11-15" },
+  { id: 6, title: "Nghi lễ Kava tại Fiji", region: "Melanesia", country: "Fiji", tags: ["Culture", "Drink"], img: "https://plus.unsplash.com/premium_photo-1716025288906-6b6f44f882cb?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-02-01" },
+  { id: 7, title: "Bộ lạc vùng cao nguyên Papua", region: "Melanesia", country: "Papua New Guinea", tags: ["Culture", "People"], img: "https://plus.unsplash.com/premium_photo-1730160763831-28093a52d039?q=80&w=689&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-01-20" },
+  { id: 8, title: "Lặn biển xác tàu Vanuatu", region: "Melanesia", country: "Vanuatu", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1602587557684-11163fe60c87?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2023-11-15" },
 
   // --- MICRONESIA ---
-  { id: 10, title: "Đá tiền Yap: Đơn vị tiền tệ khổng lồ", region: "Micronesia", country: "Yap", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1596522518420-56247c7d424b?q=80&w=600&auto=format&fit=crop", date: "2024-01-05" },
-  { id: 11, title: "Truyền thuyết hồ sứa Palau", region: "Micronesia", country: "Palau", tags: ["Culture", "Nature"], img: "https://images.unsplash.com/photo-1551068832-720485662705?q=80&w=600&auto=format&fit=crop", date: "2024-02-28" },
-  { id: 12, title: "Chiến tranh Thái Bình Dương tại Guam", region: "Micronesia", country: "Guam", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1518081461904-7d8fbed95449?q=80&w=600&auto=format&fit=crop", date: "2023-09-15" }
+  { id: 10, title: "Đá tiền Yap: Đơn vị tiền tệ khổng lồ", region: "Micronesia", country: "Yap", tags: ["Culture", "History"], img: "https://preview.redd.it/there-is-an-island-in-the-pacific-called-yap-that-uses-v0-60ijm0hqa91b1.jpg?width=640&crop=smart&auto=webp&s=d51dd52838416f6bc3b6055d96d1981d9c241b15", date: "2024-01-05" },
+  { id: 11, title: "Truyền thuyết hồ sứa Palau", region: "Micronesia", country: "Palau", tags: ["Culture", "Nature"], img: "https://images.unsplash.com/photo-1552923529-7826be421ddc?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-02-28" },
+  { id: 12, title: "Chiến tranh Thái Bình Dương tại Guam", region: "Micronesia", country: "Guam", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1600075012737-2a2ffd7c1156?q=80&w=1167&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2023-09-15" }
 ];
 
 // Fallback mô tả (nếu bạn không render data-desc từ metafield)
