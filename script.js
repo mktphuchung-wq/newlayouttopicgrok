@@ -8,7 +8,7 @@ const POSTS_LIMIT = 6;
 // 2) DATA (demo). Thực tế bạn có thể thay bằng data từ Shopify / Storefront API / Liquid render.
 const blogPosts = [
   // --- POLYNESIA ---
-  { id: 1, title: "Điệu nhảy Hula: Linh hồn của Hawaii", region: "Polynesia", country: "Hawaii", tags: ["Culture", "Dance"], img: "https://images.unsplash.com/photo-1542259659-4ab2877c2401?q=80&w=600&auto=format&fit=crop", date: "2024-01-15" },
+  { id: 1, title: "Điệu nhảy Hula: Linh hồn của Hawaii", region: "Polynesia", country: "Hawaii", tags: ["Culture", "Dance"], img: "https://images.unsplash.com/photo-1462400362591-9ca55235346a?q=80&w=1132&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D", date: "2024-01-15" },
   { id: 2, title: "Lễ hội xăm mình Tattoo tại Samoa", region: "Polynesia", country: "Samoa", tags: ["Culture", "Art"], img: "https://images.unsplash.com/photo-1596323086961-419b6e87a270?q=80&w=600&auto=format&fit=crop", date: "2024-02-10" },
   { id: 3, title: "Haka: Tiếng gầm của chiến binh Maori", region: "Polynesia", country: "New Zealand", tags: ["Culture", "History"], img: "https://images.unsplash.com/photo-1469521669194-babb45f835ae?q=80&w=600&auto=format&fit=crop", date: "2024-03-05" },
   { id: 4, title: "Bí mật đằng sau hoa Lei", region: "Polynesia", country: "Hawaii", tags: ["Culture", "Nature"], img: "https://images.unsplash.com/photo-1589394666421-26c715974419?q=80&w=600&auto=format&fit=crop", date: "2024-03-12" },
