@@ -1,0 +1,150 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Culture of the Pacific - Polynesia, Melanesia, Micronesia</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://images.unsplash.com" />
+</head>
+
+<body>
+  <!-- HERO (Trên cùng page): Hero image + CTA + ảnh chủ đề -->
+  <header class="hero" aria-label="Hero">
+    <div class="hero-media" aria-hidden="true">
+      <img
+        src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=2400&auto=format&fit=crop"
+        alt=""
+        loading="eager"
+        fetchpriority="high"
+      />
+    </div>
+
+    <div class="hero-overlay">
+      <div class="container hero-inner">
+        <span class="hero-badge">Topic Cluster</span>
+        <div class="hero-copy">
+          <p class="hero-kicker">Pacific Island Stories</p>
+          <h2 class="hero-title">Khám phá văn hóa Thái Bình Dương</h2>
+          <p class="hero-subtitle">
+            Chọn quốc gia trong từng vùng để xem mô tả Blog (metafield) và danh sách bài viết mới nhất.
+          </p>
+        </div>
+
+        <div class="hero-actions">
+          <a class="btn-cta" href="#polynesia">Bắt đầu khám phá</a>
+          <a class="btn-ghost" href="#melanesia">Xem Melanesia</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <!-- Bên dưới hero: Tiêu đề Page + mô tả ngắn -->
+    <header class="topic-header">
+      <h1>Culture of the Pacific</h1>
+      <p class="main-intro">
+        Hành trình khám phá di sản, tín ngưỡng và nghệ thuật của người dân hải đảo.
+      </p>
+    </header>
+
+    <!-- POLYNESIA -->
+    <section id="polynesia" class="region-section">
+      <div class="section-header">
+        <h2>Polynesia</h2>
+
+        <!-- Menu quốc gia (bỏ Top Picks) -->
+        <div class="country-filter" role="tablist" aria-label="Chọn quốc gia - Polynesia" data-region="Polynesia">
+          <!-- data-desc: mô phỏng metafield. Khi lên Shopify, bạn render metafield vào data-desc là chạy. -->
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Hawaii" data-desc="Aloha! Đắm mình trong điệu Hula và truyền thuyết nữ thần lửa Pele.">
+            Hawaii
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="New Zealand" data-desc="Kia Ora! Khám phá văn hóa Maori qua Haka và nghệ thuật chạm khắc.">
+            NZL
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Samoa" data-desc="Talofa! Trải nghiệm lối sống Fa'a Samoa gìn giữ suốt 3000 năm.">
+            Samoa
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Tahiti" data-desc="Viên ngọc xanh của Pháp: sự giao thoa tinh tế giữa Polynesia và lãng mạn châu Âu.">
+            Tahiti
+          </button>
+        </div>
+      </div>
+
+      <!-- Khi click menu: hiện H3 + mô tả (metafield) -->
+      <div class="dynamic-content country-content" aria-live="polite">
+        <h3 class="country-title" id="title-polynesia">—</h3>
+        <p class="country-desc" id="desc-polynesia">Đang tải mô tả...</p>
+        <a href="#" class="view-all-link" id="link-polynesia">Xem tất cả bài viết <span class="arrow">→</span></a>
+      </div>
+
+      <!-- Danh sách bài viết mới nhất -->
+      <div class="post-grid" id="grid-polynesia"></div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- MELANESIA -->
+    <section id="melanesia" class="region-section">
+      <div class="section-header">
+        <h2>Melanesia</h2>
+
+        <div class="country-filter" role="tablist" aria-label="Chọn quốc gia - Melanesia" data-region="Melanesia">
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Fiji" data-desc="Bula! Thưởng thức Kava và lòng hiếu khách nồng hậu của Fiji.">
+            Fiji
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Vanuatu" data-desc="Vùng đất của núi lửa và những bộ lạc cổ xưa, hoang sơ và kỳ bí.">
+            Vanuatu
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Papua New Guinea" data-desc="Hơn 800 ngôn ngữ và lễ hội Sing-sing rực rỡ sắc màu.">
+            Papua New Guinea
+          </button>
+        </div>
+      </div>
+
+      <div class="dynamic-content country-content" aria-live="polite">
+        <h3 class="country-title" id="title-melanesia">—</h3>
+        <p class="country-desc" id="desc-melanesia">Đang tải mô tả...</p>
+        <a href="#" class="view-all-link" id="link-melanesia">Xem tất cả bài viết <span class="arrow">→</span></a>
+      </div>
+
+      <div class="post-grid" id="grid-melanesia"></div>
+    </section>
+
+    <hr class="divider" />
+
+    <!-- MICRONESIA -->
+    <section id="micronesia" class="region-section">
+      <div class="section-header">
+        <h2>Micronesia</h2>
+
+        <div class="country-filter" role="tablist" aria-label="Chọn quốc gia - Micronesia" data-region="Micronesia">
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Palau" data-desc="Thiên đường lặn biển và văn hóa mẫu hệ độc đáo.">
+            Palau
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Guam" data-desc="Nơi giao thoa văn hóa Chamorro bản địa và ảnh hưởng hiện đại.">
+            Guam
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Yap" data-desc="Nổi tiếng với đá tiền Rai và văn hóa hàng hải lâu đời.">
+            Yap
+          </button>
+          <button class="filter-btn" role="tab" aria-pressed="false" data-country="Kiribati" data-desc="Quần đảo san hô giữa Thái Bình Dương với nhịp sống biển cả đặc trưng.">
+            Kiribati
+          </button>
+        </div>
+      </div>
+
+      <div class="dynamic-content country-content" aria-live="polite">
+        <h3 class="country-title" id="title-micronesia">—</h3>
+        <p class="country-desc" id="desc-micronesia">Đang tải mô tả...</p>
+        <a href="#" class="view-all-link" id="link-micronesia">Xem tất cả bài viết <span class="arrow">→</span></a>
+      </div>
+
+      <div class="post-grid" id="grid-micronesia"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
